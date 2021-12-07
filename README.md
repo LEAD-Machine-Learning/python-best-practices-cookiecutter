@@ -15,11 +15,8 @@ Best practices [cookiecutter](https://github.com/audreyr/cookiecutter) template 
 ## Quickstart
 ```sh
 # Install pipx if pipenv and cookiecutter are not installed
-pip install pipx
-pipx ensurepath
-
 # Use cookiecutter to create project from this template
-pipx run cookiecutter gh:LEAD-Machine-Learning/python-best-practices-cookiecutter
+cookiecutter gh:LEAD-Machine-Learning/python-best-practices-cookiecutter
 
 # Enter project directory
 cd <repo_name>
